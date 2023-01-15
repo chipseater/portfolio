@@ -5,7 +5,7 @@
     onMounted(() => {
         const particles = new Particles({
             element: 'particles-background',
-            contain: false,
+            contain: true,
             fullscreen: true,
             threshold: 150,
             addParticleOnClick: true,
@@ -61,7 +61,7 @@
 
 <template>
     <canvas
-        class="w-full h-full bg-gray-800 fixed z-[-10] top-0 left-0"
+        class="w-screen h-screen bg-gray-800 fixed z-[-10] top-0 left-0"
         id="particles-background"
     />
     <div class="w-screen h-screen text-white align-bottom scale-[1] opacity-1">
