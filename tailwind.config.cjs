@@ -11,7 +11,10 @@ module.exports = {
       },
       colors: {
         primary: "#2f8ef5"
-      }
+      },
+      transitionProperty: {
+        'width': 'width'
+    },
     },
   },
   plugins: [],

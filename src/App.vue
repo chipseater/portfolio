@@ -21,6 +21,7 @@ import HomeVue from './pages/Home.vue';
 @layer {
   html {
     font-family: "Raleway";
+    scroll-behavior: smooth;
   }
 }
 </style>
